@@ -1,22 +1,4 @@
-# MedAura
-A comprehensive medical web application with user authentication and role-based access for doctors and patients. The platform will include:
-
-- User authentication (sign-up, login, forgot password)
-- Role selection upon login (doctor or patient)
-- 25+ medical departments for patient navigation
-- Doctor profiles with specialties and contact information
-- Patient ability to browse and select doctors within departments which then they can call or text in app
-- One-month free trial for patients, followed by a $10 monthly subscription
-- Feedback system for user input
-
-UI/Style:
-- Professional medical interface with a soothing color palette
-- Clear department categorization with intuitive navigation
-- Doctor profiles presented as easily scannable cards
-
-
-
-
+#MedAura
 ring(1from flask import Flask, render_template, request, redirect, url_for, session, flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
